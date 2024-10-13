@@ -4,7 +4,7 @@ $id = $_POST['id'];
 
 // 2. DB接続
 try {
-    $pdo = new PDO('mysql:dbname=nadefnadef_genzaichi01;charset=utf8;host=mysql3101.db.sakura.ne.jp', 'nadefnadef_genzaichi01', 'genzaichi01');
+    $pdo = new PDO('');
 } catch (PDOException $e) {
     exit('DB Connection Error:'.$e->getMessage());
 }
