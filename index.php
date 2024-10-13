@@ -13,7 +13,7 @@ if (!isset($_SESSION['user_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>現在地情報記録アプリ</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAApXvfKMddya-euUUTPqxlgXMmDmzbLUw&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places"></script>
 </head>
 <body>
     <h1>現在地情報記録アプリ</h1>
